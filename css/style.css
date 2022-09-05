@@ -1,0 +1,39 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+
+    /* DEBUG */
+    border: 1px solid black;
+}
+
+header,
+.header-top {
+    height: 40px;
+    /* DEBUG */
+    background-color: aqua;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+}
+
+.nav .link {
+    flex-grow: 1;
+    text-align: center;
+
+}
