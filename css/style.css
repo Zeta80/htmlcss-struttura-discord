@@ -5,10 +5,14 @@
     box-sizing: border-box;
 }
 
+/* #region HEADER */
 .header-top {
+    height: 40px;
     display: flex;
     align-items: center;
+    /* DEBUG */
     border: 1px solid black;
+    background-color: aqua;
 }
 
 .container {
@@ -19,14 +23,15 @@
     border: 1px solid black;
 }
 
-header,
-.header-top {
-    height: 40px;
+header {
+    height: 300px;
     /* DEBUG */
-    background-color: aqua;
+    background-color: blueviolet;
+
 }
 
-.nav {
+.nav,
+.flex-container {
     display: flex;
     justify-content: space-between;
     /* align-items: flex-start; */
@@ -37,3 +42,78 @@ header,
     text-align: center;
 
 }
+
+.header-description {
+    width: 50%;
+    margin: auto;
+
+    /* DEBUG */
+    background-color: palevioletred;
+    height: 200px;
+}
+
+.head-bot {
+    height: 260px;
+    display: flex;
+    align-items: center;
+}
+
+/* #endregion HEADER */
+
+/* #region MAIN */
+.section {
+    /* DEBUG */
+    height: 300px;
+    border: 1px solid black;
+}
+
+.white {
+    background-color: white;
+}
+
+.grey {
+    background-color: lightgray;
+}
+
+.flex {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-section {
+
+    flex-grow: 3;
+
+    /* DEBUG */
+    background-color: blue;
+    height: 250px;
+}
+
+.descriptipn-img {
+    flex-grow: 2;
+
+
+    /* DEBUG */
+    background-color: pink;
+    height: 250px;
+}
+
+.descriptipn-end {
+    /* DEBUG */
+    background-color: green;
+    height: 250px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* #endregion MAIN */
