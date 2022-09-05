@@ -107,13 +107,24 @@ header {
     width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
 /* #endregion MAIN */
+
+/* #region FOOTER */
+.section-footer {
+
+    /* DEBUG */
+    background-color: aquamarine;
+    min-height: 250px;
+    border: 1px solid white;
+    flex-grow: 1;
+}
+
+.section-footer.main {
+    background-color: palevioletred;
+    flex-grow: 2;
+}
+
+
+
+
+/* #endregion FOOTER */
