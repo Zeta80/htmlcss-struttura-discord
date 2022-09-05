@@ -110,6 +110,10 @@ header {
 /* #endregion MAIN */
 
 /* #region FOOTER */
+footer {
+    background-color: black;
+}
+
 .section-footer {
 
     /* DEBUG */
@@ -120,8 +124,21 @@ header {
 }
 
 .section-footer.main {
+
+    /* DEBUG */
     background-color: palevioletred;
     flex-grow: 2;
+}
+
+.footer-bottom {
+    border: 1px solid white;
+}
+
+.footer-button {
+    background-color: aquamarine;
+    height: 30px;
+    margin-top: 10px;
+    justify-content: space-between;
 }
 
 
